@@ -1,9 +1,6 @@
 name: JSON BinPack
 
 on:
-  schedule:
-    # Once per day, Monday to Friday
-    - cron: '0 19 * * 1-5'
   push:
     branches:
       - main
